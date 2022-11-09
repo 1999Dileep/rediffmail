@@ -1,0 +1,312 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "features/ScenarioOutlineExample.feature:27",
+      "name": "login data -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/ScenarioOutlineExample.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:16"
+          },
+          "name": "we navigate to Rediffmail account",
+          "result": {
+            "duration": 0.7878971099853516,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/ScenarioOutlineExample.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:22"
+          },
+          "name": "we validate the username text",
+          "result": {
+            "duration": 0.08389639854431152,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "username",
+                "value": "selenium.testmay1999"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:27"
+          },
+          "name": "we type in the \"selenium.testmay1999\" edit box",
+          "result": {
+            "duration": 0.1575772762298584,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:32"
+          },
+          "name": "we validate the password text",
+          "result": {
+            "duration": 0.027925729751586914,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "name": "password",
+                "value": "Dilee@123"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:37"
+          },
+          "name": "we type in the \"Dilee@123\" field",
+          "result": {
+            "duration": 0.10419940948486328,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:11",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:42"
+          },
+          "name": "we click on the sign in button",
+          "result": {
+            "duration": 1.4253060817718506,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/ScenarioOutlineExample.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:47"
+          },
+          "name": "we validate inbox page opens",
+          "result": {
+            "duration": 0.05955052375793457,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Given",
+          "location": "features/ScenarioOutlineExample.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:52"
+          },
+          "name": "we click in write mail link",
+          "result": {
+            "duration": 10.136293888092041,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/ScenarioOutlineExample.feature:14",
+          "match": {
+            "arguments": [
+              {
+                "name": "to",
+                "value": "selenium.testmay2012@rediffmail.com"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:58"
+          },
+          "name": "we fill the \"selenium.testmay2012@rediffmail.com\" field",
+          "result": {
+            "duration": 16.329021453857422,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:15",
+          "match": {
+            "arguments": [
+              {
+                "name": "subject",
+                "value": "development"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:64"
+          },
+          "name": "we type the \"development\" area",
+          "result": {
+            "duration": 5.169233560562134,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:16",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:69"
+          },
+          "name": "we click on the Bold button",
+          "result": {
+            "duration": 5.100271701812744,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:17",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:74"
+          },
+          "name": "we click on the Italic button",
+          "result": {
+            "duration": 5.083077669143677,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:18",
+          "match": {
+            "arguments": [
+              {
+                "name": "compose",
+                "value": "development done"
+              }
+            ],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:79"
+          },
+          "name": "type in \"development done\" area",
+          "result": {
+            "duration": 10.316005945205688,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:19",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:84"
+          },
+          "name": "click on save button",
+          "result": {
+            "duration": 10.10460638999939,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:20",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:89"
+          },
+          "name": "Click on Draft Button",
+          "result": {
+            "duration": 10.120316982269287,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:21",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:95"
+          },
+          "name": "click on Delete Check Button",
+          "result": {
+            "duration": 10.099946975708008,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:22",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:100"
+          },
+          "name": "Click on Delete Button",
+          "result": {
+            "duration": 20.14083480834961,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "features/ScenarioOutlineExample.feature:23",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:105"
+          },
+          "name": "we click on logout link",
+          "result": {
+            "duration": 11.144482851028442,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/ScenarioOutlineExample.feature:24",
+          "match": {
+            "arguments": [],
+            "location": "features/steps/ScenarioOutlineExampleStep.py:110"
+          },
+          "name": "we validate that we have logded out of rediffmail account",
+          "result": {
+            "duration": 0.04661965370178223,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/ScenarioOutlineExample.feature:4",
+  "name": "SaveMail",
+  "status": "passed",
+  "tags": []
+}
+]

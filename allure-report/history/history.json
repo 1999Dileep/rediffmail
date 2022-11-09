@@ -1,0 +1,1 @@
+{"225aa22f7bef62d390f43fcbc2749b56":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"a1602c249abaa24f","reportUrl":"http://localhost:9090/job/RediffMail/1/allure/#testresult/a1602c249abaa24f","status":"passed","time":{"start":1667979280242,"stop":1667979410410,"duration":130168}}]}}
