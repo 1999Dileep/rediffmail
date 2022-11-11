@@ -6,7 +6,7 @@ from features.pageobjects.Base import BaseSettingsPage
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-class SendmailPage(BaseSettingsPage):
+class SavemailPage(BaseSettingsPage):
 
     def __init__(self,driver):
         super().__init__(driver)

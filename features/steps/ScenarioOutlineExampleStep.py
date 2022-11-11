@@ -8,7 +8,7 @@ from Utilities import configreader
 from Utilities.LogUtil import Logger
 
 from features.pageobjects.LoginPage import LoginPage
-from features.pageobjects.SendmailPage import SendmailPage
+from features.pageobjects.SavemailPage import SavemailPage
 
 log = Logger(__name__, logging.INFO)
 
@@ -51,63 +51,63 @@ def step_impl(context):
 
 @given(u'we click in write mail link')
 def step_impl(context):
-    context.send = SendmailPage(context.driver)
-    context.send.clickWriteMail()
+    context.save = SavemailPage(context.driver)
+    context.save.clickWriteMail()
     log.logger.info("Write Mail Clicked")
 
 @when(u'we fill the "{to}" field')
 def step_impl(context, to):
     time.sleep(6)
-    context.send.setTo(to)
+    context.save.setTo(to)
     log.logger.info("To field typed")
 
 @when(u'we type the "{subject}" area')
 def step_impl(context, subject):
-    context.send.setSubjectArea(subject)
+    context.save.setSubjectArea(subject)
     log.logger.info("Subject field typed")
 
 @when(u'we click on the Bold button')
 def step_impl(context):
-    context.send.ClickboldButton()
+    context.save.ClickboldButton()
     log.logger.info("Clicked on Bold Button")
 
 @when(u'we click on the Italic button')
 def step_impl(context):
-    context.send.ClickItalicButton()
+    context.save.ClickItalicButton()
     log.logger.info("Clicked on Italic Button")
 
 @when(u'type in "{compose}" area')
 def step_impl(context,compose):
-    context.send.setComposeArea(compose)
+    context.save.setComposeArea(compose)
     log.logger.info("Compose field typed")
 
 @when(u'click on save button')
 def step_impl(context):
-    context.send.clickSaveMail()
+    context.save.clickSaveMail()
     log.logger.info("Save Button Clicked")
 
 @when(u'Click on Draft Button')
 def step_impl(context):
-    context.send.Draft()
+    context.save.Draft()
     log.logger.info("Clicked on Draft Button")
 
 
 @when(u'click on Delete Check Button')
 def step_impl(context):
-   context.send.CheckBox()
+   context.save.CheckBox()
    log.logger.info("Clicked on CheckBox")
 
 @when(u'Click on Delete Button')
 def step_impl(context):
-    context.send.Delete()
+    context.save.Delete()
     log.logger.info("Clicked on Delete")
 
 @when(u'we click on logout link')
 def step_impl(context):
-    context.send.clickLogout()
+    context.save.clickLogout()
     log.logger.info("Logout link clicked")
 
 @then(u'we validate that we have logded out of rediffmail account')
 def step_impl(context):
-    context.send.validlogout("You have successfully signed out of Rediffmail.")
+    context.save.validlogout("You have successfully signed out of Rediffmail.")
     log.logger.info("Validate text after logout")
