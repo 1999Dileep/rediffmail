@@ -1,26 +1,26 @@
-<testsuite name="ScenarioOutlineExample.SaveMail" tests="1" errors="0" failures="0" skipped="0" time="122.231168" timestamp="2022-11-09T11:57:05.856541" hostname="DESKTOP-VC5HE24"><testcase classname="ScenarioOutlineExample.SaveMail" name="login data -- @1.1 " status="passed" time="122.231168"><system-out>
+<testsuite name="ScenarioOutlineExample.SaveMail" tests="1" errors="0" failures="0" skipped="0" time="117.893518" timestamp="2022-11-11T12:46:52.448326" hostname="DESKTOP-VC5HE24"><testcase classname="ScenarioOutlineExample.SaveMail" name="login data -- @1.1 " status="passed" time="117.893518"><system-out>
 <![CDATA[
 @scenario.begin
   Scenario Outline: login data -- @1.1 
-    Given we navigate to Rediffmail account ... passed in 1.117s
-    When we validate the username text ... passed in 0.097s
-    And we type in the "selenium.testmay1999" edit box ... passed in 0.420s
-    And we validate the password text ... passed in 0.436s
-    And we type in the "Dilee@123" field ... passed in 0.214s
-    And we click on the sign in button ... passed in 2.404s
-    Then we validate inbox page opens ... passed in 0.195s
-    Given we click in write mail link ... passed in 10.726s
-    When we fill the "selenium.testmay2012@rediffmail.com" field ... passed in 16.402s
-    And we type the "development" area ... passed in 5.522s
-    And we click on the Bold button ... passed in 5.318s
-    And we click on the Italic button ... passed in 5.233s
-    And type in "development done" area ... passed in 10.854s
-    And click on save button ... passed in 10.297s
-    And Click on Draft Button ... passed in 10.279s
-    And click on Delete Check Button ... passed in 10.327s
-    And Click on Delete Button ... passed in 20.491s
-    And we click on logout link ... passed in 11.761s
-    Then we validate that we have logded out of rediffmail account ... passed in 0.141s
+    Given we navigate to Rediffmail account ... passed in 0.733s
+    When we validate the username text ... passed in 0.044s
+    And we type in the "selenium.testmay1999" edit box ... passed in 0.184s
+    And we validate the password text ... passed in 0.053s
+    And we type in the "Dilee@123" field ... passed in 0.117s
+    And we click on the sign in button ... passed in 2.795s
+    Then we validate inbox page opens ... passed in 0.031s
+    Given we click in write mail link ... passed in 10.107s
+    When we fill the "selenium.testmay2012@rediffmail.com" field ... passed in 16.234s
+    And we type the "development" area ... passed in 5.160s
+    And we click on the Bold button ... passed in 5.133s
+    And we click on the Italic button ... passed in 5.120s
+    And type in "development done" area ... passed in 10.307s
+    And click on save button ... passed in 10.142s
+    And Click on Draft Button ... passed in 10.119s
+    And click on Delete Check Button ... passed in 10.131s
+    And Click on Delete Button ... passed in 20.206s
+    And we click on logout link ... passed in 11.233s
+    Then we validate that we have logded out of rediffmail account ... passed in 0.046s
 
 @scenario.end
 --------------------------------------------------------------------------------
