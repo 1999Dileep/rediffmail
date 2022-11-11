@@ -61,3 +61,22 @@
 2022-11-11 13:16:07,992 - ScenarioOutlineExampleStep.py:[103] - [INFO] - Clicked on Delete
 2022-11-11 13:16:19,625 - ScenarioOutlineExampleStep.py:[108] - [INFO] - Logout link clicked
 2022-11-11 13:16:19,678 - ScenarioOutlineExampleStep.py:[113] - [INFO] - Validate text after logout
+2022-11-11 13:41:26,463 - ScenarioOutlineExampleStep.py:[20] - [INFO] - Navigated to Rediffmail Login Page
+2022-11-11 13:41:30,575 - ScenarioOutlineExampleStep.py:[25] - [INFO] - Username Text Validated
+2022-11-11 13:41:34,839 - ScenarioOutlineExampleStep.py:[30] - [INFO] - Username field typed
+2022-11-11 13:41:38,904 - ScenarioOutlineExampleStep.py:[35] - [INFO] - Password Text Validated
+2022-11-11 13:41:43,258 - ScenarioOutlineExampleStep.py:[40] - [INFO] - Password field typed
+2022-11-11 13:42:10,648 - ScenarioOutlineExampleStep.py:[45] - [INFO] - Signin button clicked
+2022-11-11 13:42:14,738 - ScenarioOutlineExampleStep.py:[50] - [INFO] - Write mail text typed
+2022-11-11 13:42:24,921 - ScenarioOutlineExampleStep.py:[56] - [INFO] - Write Mail Clicked
+2022-11-11 13:42:41,335 - ScenarioOutlineExampleStep.py:[62] - [INFO] - To field typed
+2022-11-11 13:42:46,584 - ScenarioOutlineExampleStep.py:[67] - [INFO] - Subject field typed
+2022-11-11 13:42:51,773 - ScenarioOutlineExampleStep.py:[72] - [INFO] - Clicked on Bold Button
+2022-11-11 13:42:56,916 - ScenarioOutlineExampleStep.py:[77] - [INFO] - Clicked on Italic Button
+2022-11-11 13:43:07,338 - ScenarioOutlineExampleStep.py:[82] - [INFO] - Compose field typed
+2022-11-11 13:43:17,491 - ScenarioOutlineExampleStep.py:[87] - [INFO] - Save Button Clicked
+2022-11-11 13:43:27,706 - ScenarioOutlineExampleStep.py:[92] - [INFO] - Clicked on Draft Button
+2022-11-11 13:43:37,864 - ScenarioOutlineExampleStep.py:[98] - [INFO] - Clicked on CheckBox
+2022-11-11 13:43:58,150 - ScenarioOutlineExampleStep.py:[103] - [INFO] - Clicked on Delete
+2022-11-11 13:44:11,231 - ScenarioOutlineExampleStep.py:[108] - [INFO] - Logout link clicked
+2022-11-11 13:44:11,310 - ScenarioOutlineExampleStep.py:[113] - [INFO] - Validate text after logout
