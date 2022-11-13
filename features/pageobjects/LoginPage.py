@@ -11,8 +11,9 @@ class LoginPage(BaseSettingsPage):
 
     def open(self, url):
         self.driver.get(url)
+        time.sleep(5)
         self.DynamicImplicitWait(40)
-        time.sleep(4)
+
 
     def validUsernameText(self, expectedText):
         self.DynamicImplicitWait(40)
